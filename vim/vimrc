@@ -107,6 +107,7 @@ Plug 'NagatoPain/AutoSQLUpperCase.vim'
 " *AESTHETIC PLUGINS*
 Plug 'flazz/vim-colorschemes'       " all the colorschemes
 Plug 'chriskempson/base16-vim'
+Plug 'altercation/vim-colors-solarized'
 Plug 'bling/vim-airline'            " better statusbar
 Plug 'itchyny/lightline.vim'        " better looking UI
 Plug 'mhinz/vim-Startify'           " nice startup screen
@@ -178,21 +179,23 @@ syntax on       " syntax highlighting
 set laststatus=2 " always show status bar
 set ruler        " show the cursor position all the time
 set guioptions=  " remove extra gui elements
-"set t_Co=256     " 256 colors, please
+set t_Co=256     " 256 colors, please
 set cpoptions+=$ " $ as end marker for the change operator
 
+set paste
 " fallback default colorscheme
 "colorscheme desert
 " colorscheme of choice
 "silent! colorscheme badwolf
 set background=dark             " To use dark theme
-
+"highlight Normal ctermfg=grey ctermbg=black
+"colorscheme solarized
 if filereadable(expand("~/.vim/plugged/base16-vim/colors/base16-solarized.vim"))
         let g:solarized_termcolors=256
         let g:solarized_termtrans=1
         let g:solarized_contrast="normal"
         let g:solarized_visibility="normal"
-        colorscheme base16-solarized " Load a colorscheme
+        colorscheme solarized " Load a colorscheme
 endif
 
 
