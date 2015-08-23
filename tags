@@ -1,0 +1,13 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+archinfo	/data/dotfiles/bspwm/panel/barinfo	/^archinfo() {$/;"	f
+clock	/data/dotfiles/bspwm/panel/barinfo	/^clock() {$/;"	f
+cpu	/data/dotfiles/bspwm/panel/barinfo	/^cpu() {$/;"	f
+hdd	/data/dotfiles/bspwm/panel/barinfo	/^hdd() {$/;"	f
+internet	/data/dotfiles/bspwm/panel/barinfo	/^internet() {$/;"	f
+ram	/data/dotfiles/bspwm/panel/barinfo	/^ram() {$/;"	f
+volume	/data/dotfiles/bspwm/panel/barinfo	/^volume() {$/;"	f

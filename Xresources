@@ -28,15 +28,47 @@ URxvt.keysym.M-Escape: perl:keyboard-select:activate
 URxvt.keysym.C-Escape: perl:keyboard-select:activate
 URxvt.keysym.M-u: perl:url-select:select_next
 
+! Terminal colors
+! Color-scheme : Relic Dark
+! Author       : stark <stark@openmailbox.org>
+
+*background: #1D2426
+*foreground: #8FA388
+
+! Alternate foreground
+!*foreground: #AB9C71
+
+*cursorColor: #BE5E1E
+
+*color0:  #39474A
+*color1:  #986345
+*color2:  #788249
+*color3:  #9B6A46
+*color4:  #3E5951
+*color5:  #B9924A
+*color6:  #5d796a
+*color7:  #977D5E
+*color8:  #4C5F63
+*color9:  #B07350
+*color10: #869151
+*color11: #AF6B42
+*color12: #567A6E
+*color13: #D69D55
+*color14: #668574
+*color15: #AB9C71
+
+
 ! Fonts
 
 !Courier
 !URxvt.font: xft:Courier-10
 
 !Inconsolata
-URxvt.font: xft:Inconsolata-12
-URxvt.boldFont: xft:Inconsolata-12
-URxvt.letterSpace: -1
+!URxvt*font: xft:Inconsolata for Powerline:regular:pixelsize=17,xft:Dejavu Sans Mono, xft:Meera
+!URxvt*boldFont: xft:Inconsolata for Powerline:bold:pixelsize=17:antialias=true:hinting:true
+!URxvt*imFont: xft:Inconsolata for Powerline:regular:pixelsize=16:antialias=true:hinting:true
+!URxvt*italicFont: xft:Inconsolata for Powerline:italic:pixelsize=16:antialias=true:hinting:true
+!URxvt.letterSpace: -1
 
 !Inconsolata-g
 !URxvt.font: xft:InconsolataG-10
@@ -53,6 +85,13 @@ URxvt.letterSpace: -1
 !Droid Sans Mono
 !URxvt.font: xft:Droid Sans Mono-10
 !URxvt.letterSpace: -1
+
+!Hermit
+URxvt*font: xft:Hermit:medium:size=13:antialiasing=true
+URxvt*boldFont: xft:Hermit:bold:size=13:antialiasing=true:style=medium
+URxvt*italicFont: xft:Hermit:medium:size=13:antialiasing=true:style=medium
+URxvt*boldItalicFont: xft:Hermit:bold:size=13:antialiasing=true:style=medium
+URxvt.letterSpace: -1
 
 !DejaVu Sans
 !URxvt.font: xft:DejaVu Sans Mono-10
