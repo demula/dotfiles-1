@@ -4,10 +4,43 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+MODKEY	/data/dotfiles/st/config.h	109;"	d
+actionfps	/data/dotfiles/st/config.h	/^static unsigned int actionfps = 30;$/;"	v
+allowaltscreen	/data/dotfiles/st/config.h	/^static bool allowaltscreen = true;$/;"	v
 archinfo	/data/dotfiles/bspwm/panel/barinfo	/^archinfo() {$/;"	f
+bellvolume	/data/dotfiles/st/config.h	/^static int bellvolume = 0;$/;"	v
+blinktimeout	/data/dotfiles/st/config.h	/^static unsigned int blinktimeout = 800;$/;"	v
+borderpx	/data/dotfiles/st/config.h	/^static int borderpx = 2;$/;"	v
+chscale	/data/dotfiles/st/config.h	/^static float chscale = 1.0;$/;"	v
 clock	/data/dotfiles/bspwm/panel/barinfo	/^clock() {$/;"	f
+colorname	/data/dotfiles/st/config.h	/^static const char *colorname[] = {$/;"	v
 cpu	/data/dotfiles/bspwm/panel/barinfo	/^cpu() {$/;"	f
+cursorthickness	/data/dotfiles/st/config.h	/^static unsigned int cursorthickness = 2;$/;"	v
+cwscale	/data/dotfiles/st/config.h	/^static float cwscale = 1.0;$/;"	v
+defaultbg	/data/dotfiles/st/config.h	/^static unsigned int defaultbg = 8;$/;"	v
+defaultcs	/data/dotfiles/st/config.h	/^static unsigned int defaultcs = 14;$/;"	v
+defaultfg	/data/dotfiles/st/config.h	/^static unsigned int defaultfg = 12;$/;"	v
+defaultitalic	/data/dotfiles/st/config.h	/^static unsigned int defaultitalic = 11;$/;"	v
+defaultunderline	/data/dotfiles/st/config.h	/^static unsigned int defaultunderline = 7;$/;"	v
+doubleclicktimeout	/data/dotfiles/st/config.h	/^static unsigned int doubleclicktimeout = 300;$/;"	v
+font	/data/dotfiles/st/config.h	/^static char font[] = "Hermit:pixelsize=16:antialias=true:autohint=false";$/;"	v
+forceselmod	/data/dotfiles/st/config.h	/^static uint forceselmod = ShiftMask;$/;"	v
 hdd	/data/dotfiles/bspwm/panel/barinfo	/^hdd() {$/;"	f
+ignoremod	/data/dotfiles/st/config.h	/^static uint ignoremod = Mod2Mask|XK_SWITCH_MOD;$/;"	v
 internet	/data/dotfiles/bspwm/panel/barinfo	/^internet() {$/;"	f
+key	/data/dotfiles/st/config.h	/^static Key key[] = {$/;"	v
+mappedkeys	/data/dotfiles/st/config.h	/^static KeySym mappedkeys[] = { -1 };$/;"	v
+mshortcuts	/data/dotfiles/st/config.h	/^static Mousekey mshortcuts[] = {$/;"	v
 ram	/data/dotfiles/bspwm/panel/barinfo	/^ram() {$/;"	f
+selmasks	/data/dotfiles/st/config.h	/^static uint selmasks[] = {$/;"	v
+shell	/data/dotfiles/st/config.h	/^static char shell[] = "\/bin\/zsh";$/;"	v
+shortcuts	/data/dotfiles/st/config.h	/^static Shortcut shortcuts[] = {$/;"	v
+stty_args	/data/dotfiles/st/config.h	/^static char stty_args[] = "stty raw -echo -iexten echonl";$/;"	v
+tabspaces	/data/dotfiles/st/config.h	/^static unsigned int tabspaces = 8;$/;"	v
+termname	/data/dotfiles/st/config.h	/^static char termname[] = "st-256color";$/;"	v
+tripleclicktimeout	/data/dotfiles/st/config.h	/^static unsigned int tripleclicktimeout = 600;$/;"	v
+utmp	/data/dotfiles/st/config.h	/^static char *utmp = NULL;$/;"	v
 volume	/data/dotfiles/bspwm/panel/barinfo	/^volume() {$/;"	f
+vtiden	/data/dotfiles/st/config.h	/^static char vtiden[] = "\\033[?6c";$/;"	v
+worddelimiters	/data/dotfiles/st/config.h	/^static char worddelimiters[] = " ";$/;"	v
+xfps	/data/dotfiles/st/config.h	/^static unsigned int xfps = 120;$/;"	v
